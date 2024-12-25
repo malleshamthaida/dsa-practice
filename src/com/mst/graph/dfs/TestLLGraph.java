@@ -15,7 +15,7 @@ public class TestLLGraph {
         ll.addEdge(1,5);
         ll.addEdge(2,3);
         ll.addEdge(3,6);
-      //  ll.bfsTraversal(1);
+        ll.bfsTraversal(1);
        ll.dfsTraversal(1).forEach(System.out::println);
 
        // ll.print();
